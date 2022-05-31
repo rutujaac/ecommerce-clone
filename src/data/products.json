@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "AmazonBasics 127 cm (50 inches) 4K Ultra HD Smart LED Fire TV AB50U20PS (Black)",
+        "image": "https://5.imimg.com/data5/DI/ZS/CP/SELLER-50489472/fortex-hd-ready-ips-led-tv-500x500.jpg",
+        "rating": 3,
+        "price": 35600,
+        "category": ["Electronics", "Computers"]
+    },
+    {
+        "id": 2,
+        "title": "Apple iPhone 12 Pro Max (Silver, 128 GB)",
+        "image": "https://www.mobilitaria.com/wp-content/uploads/2019/11/gsmarena_001-2-400x400.jpg",
+        "rating": 5,
+        "price": 119900,
+        "category": ["Electronics"]
+    },
+    {
+        "id": 3,
+        "title": "Lenovo IdeaPad Slim 3 10th Gen Intel Core i3 15.6 inch(39.62cm) FHD Thin & Light Laptop (8GB/256GB SSD/UHD Graphics/Windows 11/MS Office 2021/Platinum Grey/1.7Kg), 81WB018EIN",
+        "image": "https://i5.walmartimages.com/asr/61866f89-1450-4a4c-82d4-62cf40045656.03670badd5484c2654866a9f55c597e7.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+        "rating": 3,
+        "price": 34490,
+        "category": ["Electronics"]
+    },
+    {
+        "id": 4,
+        "title": "Sony Alpha ILCE-7SM3 Full-Frame Mirrorless Camera Body (4K 120P, 4:2:2 10 bit, ISO 40-409600, high Dynamic Range, Videographers and Content Creators) - Black",
+        "image": "https://www.imaging-resource.com/PRODS/sony-a6000/ZYFRONT-MD.JPG?41",
+        "rating": 3,
+        "price": 296990,
+        "category": ["Electronics"]
+    },
+    {
+        "id": 5,
+        "title": "Logitech POP Keys Mechanical Wireless Keyboard with Customisable Emoji Keys, Durable Compact Design, Bluetooth or USB Connectivity, Multi-Device, OS Compatible - Daydream",
+        "image": "https://resource.logitech.com/w_900,h_900,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/pop-keys-wireless-mechanical/gallery/pop-keys-gallery-daydream-1.png?v=1",
+        "rating": 4,
+        "price": 8659,
+        "category": ["Electronics"]
+    },
+    {
+        "id": 6,
+        "title": "AmazonBasics 127 cm (50 inches) 4K Ultra HD Smart LED Fire TV AB50U20PS (Black)",
+        "image": "https://5.imimg.com/data5/DI/ZS/CP/SELLER-50489472/fortex-hd-ready-ips-led-tv-500x500.jpg",
+        "rating": 3,
+        "price": 35600,
+        "category": ["Electronics"]
+    },
+    {
+        "id": 7,
+        "title": "Redgear Pro Series Wired Gamepad Plug and Play Support for All PC Games Supports Windows/8/8.1/10",
+        "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626776735/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/235871_eznuep.png/mxw_2048,s_webp,f_auto",
+        "rating": 3.5,
+        "price": 1030,
+        "category": ["Electronics", "Video Games"]
+    },
+    {
+        "id": 8,
+        "title": "Noise ColorFit Pulse Grand Smart Watch with 1.69\" HD Display, 60 Sports Modes, 150 Watch Faces, Fast Charge, Spo2 Monitoring Smartwatches for Men & Women (Jet Black)",
+        "image": "https://cdn.shopify.com/s/files/1/0997/6284/products/PulseGrand05_480x.png?v=1653460425",
+        "rating": 4.5,
+        "price": 2190,
+        "category": ["Electronics", "Wearable Devices"]
+    }
+]

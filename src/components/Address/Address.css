@@ -1,0 +1,100 @@
+.address {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.logo_image {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.address__detailsForm {
+    width: 800px;
+}
+
+.address__deliveryLabel {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.address__formFieldsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.address__formFieldsContainer > input {
+    height: 20px;
+    width: 492px;
+    outline: none;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid lightgray;    
+}
+
+.address__formFieldsContainer > input:focus {
+    border: 1px solid #f0c14b;
+}
+
+.address__formFieldsContainer > label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #272727;
+    margin-bottom: 2px;
+}
+
+.address__defaultAddLabel {
+    font-size: 12px;
+    font-weight: 700;
+    color: #272727;
+    margin-left: 5px;
+}
+
+.address__addressTypeDropDown {
+    width: 504px;
+    outline: none;
+    padding: 5px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 1px solid lightgray;   
+}
+
+.address__addressTypeLabel {
+    margin-top: 10px;
+}
+
+.address__addressType {
+    height: 50px;
+    width: 70%;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.address__addressTypeDropDown:focus {
+    border: 1px solid #f0c14b;
+}
+
+.address__setAddressBtn {
+    margin-top: 15px;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.address__setAddressBtn:hover {
+    background-color: #d4a327;
+}

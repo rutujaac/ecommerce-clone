@@ -1,0 +1,103 @@
+.payment {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment__checkoutContainer {
+    width: 1200px;
+}
+
+.payment__addressList {
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.payment__addressList > h4 {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.payment__addressItem {
+    width: 90%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.payment__useAddressBtn {
+    padding: 15px;
+    background-color: #f3f3f3;
+}
+
+.payment__useAddressBtn > button {
+    margin-top: 15px;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.payment__useAddressBtn > button:hover {
+    background-color: #d4a327;
+}
+
+.payment__upiIDField {
+    height: 10px;
+    padding: 8px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.payment__upiIDLabel {
+    margin-top: 10px;
+}
+
+.payment__usePaymentBtn > button {
+    width: max-content;
+}
+
+.payment__netBankField {
+    height: 30px;
+    margin-left: 10px;
+    box-shadow: 1px 2px 3px #f3f3f3;
+}
+
+.payment__itemPreview {
+    display: flex;
+    margin: 10px;
+}
+
+.payment__itemPreview > p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.payment__itemPreivewImage {
+    height: 70px;
+}
+
+.payment__placeOrderBtn {
+    display: flex;
+    align-items: center;
+}
+
+.payment__placeOrderBtn > p {
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
