@@ -12,10 +12,14 @@ const Subtotal = () => {
 
     const proceedToCheckout = () => {
         if(user && user.email) {
-            if(!address[0])
+            if(!address[0]) {
+                console.log(""+address[0])
                 navigate('/address')
-            else 
-                navigate('/payment')
+            }
+            else {
+            console.log("Address found"+address[0])
+            navigate('/payment')
+            }
         } else {
             navigate('/login')
         }

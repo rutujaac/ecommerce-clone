@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getCartTotal } from '../../context/reducer'
 import { useStateValue } from '../../context/StateProvider'
@@ -7,6 +7,11 @@ import './Payment.css'
 const Payment = () => {
 
   const [{cart, address}] = useStateValue()
+
+  useEffect(() => {
+    console.log("Address changed"+address[0]?.fullName)
+    localStorage.setItem("address", JSON.stringify(address))
+  }, [address])
 
   return (
     <div className="payment">

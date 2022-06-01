@@ -1,17 +1,13 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useStateValue } from '../../context/StateProvider'
 import './Address.css'
 
 const Address = () => {
 
-    const [{address},dispatch] = useStateValue()
+    const [,dispatch] = useStateValue()
     const navigate = useNavigate()
 
-    useEffect(() => {
-        console.log("Address"+address[0]?.fullName)
-        localStorage.setItem("address", JSON.stringify(address))
-      }, [address])
     
 
     const addAddress = (event) => {
@@ -37,12 +33,10 @@ const Address = () => {
                     landmark,
                     town,
                     state
-                }
+                },
             })
             navigate('/payment')
-        }
-
-        
+        }        
 
     }
 

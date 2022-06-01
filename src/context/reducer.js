@@ -60,20 +60,17 @@ function reducer(state, action) {
                 } : item)
             }
         case 'ADD_NEW_ADDRESS':
-            console.log(action.address)
+            console.log("Action "+ action.address[0])
             return {
                 ...state, 
-                    address: [...state.address, {
-                        fullName:action.address.fullName,
-                        mobileNo:action.address.mobileNo,
-                        pincode:action.address.pincode,
-                        houseNo:action.address.houseNo,
-                        area:action.address.area,
-                        landmark:action.address.landmark,
-                        town:action.address.town,
-                        state:action.address.state
-                        }]
-                    }
+                address: [...state.address, action.address]
+                }
+        case 'DELETE_ADDRESS':
+            console.log(action.type)
+            return {
+                ...state,
+                address: []
+            }
         default:
             return state
     }
